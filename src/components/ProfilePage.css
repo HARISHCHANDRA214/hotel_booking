@@ -1,0 +1,47 @@
+:root{
+    --offwhite:rgb(246 245 245);
+    --shadow: 0px 0px 10px 0px gainsboro;
+    --hover: rgb(234, 234, 234);
+  }
+h1,h2,b{
+    font-weight: 500;
+}
+b{
+    font-size: large;
+}
+.profile_body>div{
+    margin: 4%;
+    display: grid;
+}
+.line{
+    height: 2px;
+    background-color: rgb(184, 179, 179);
+}
+.profile>span, .tri>span{
+    display: flex;
+    gap: 20px;
+}
+.link_container>*{
+    color:black;
+    text-decoration: none;
+}
+.profile, .tri{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 38px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}

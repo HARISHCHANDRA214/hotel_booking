@@ -1,0 +1,65 @@
+:root{
+    --offwhite:rgb(246 245 245);
+    --shadow: 0px 0px 10px 0px gainsboro;
+    --hover: rgb(234, 234, 234);
+    --button_color: rgb(249, 39, 113);
+}
+.booking_body{
+    display: grid;
+    gap: 20px;
+}
+.booking_data{
+    padding: 5%;
+    border-radius: 10px 0px 10px 0px;
+    background-color: var(--offwhite);
+}
+.top{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.top_two{
+    display: flex;
+    gap: 20px;
+}
+.booking_image>img{
+    width: 100%;
+}
+.booking_data{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+.booking_data>p>h1{
+    font-weight: normal;
+}
+.reserve{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--offwhite);
+    padding: 20px;
+    padding-right: 15%;
+    position: sticky;
+    bottom: 0px;
+}
+@media (min-width : 600px){
+    .booking_image>img{
+        width: 40%;
+    }
+    .booking_image{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .booking_data{
+        padding: 5%;
+        border-radius: 10px 0px 10px 0px;
+        background-color: var(--offwhite);
+    }
+    .reserve{
+        padding: 10px;
+        padding-left: 8%;
+        padding-right: 13%;
+    }
+}
