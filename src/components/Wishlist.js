@@ -9,7 +9,7 @@ function Wishlist(){
             <h1>Wishlists</h1>
             <h3>Log in to view your wishlists</h3>
             You can create, view, or edit wishlists once you've logged in.<br/>
-            <br/><div class="link"><Link to="/" style={{textDecoration : "none", color : "white"}}>Log in</Link></div>
+            <br/><div class="link"><Link to="/login" style={{textDecoration : "none", color : "white"}}>Log in</Link></div>
         </div>
         <NavBot/>
     </>

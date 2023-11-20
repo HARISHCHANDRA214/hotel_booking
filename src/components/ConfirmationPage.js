@@ -38,7 +38,7 @@ function ConfirmationPage(){
                 </div>
             </div>
             <div style={{display: "flex", justifyContent: "center"}}>
-                <Link to="/" class="request_book">
+                <Link to="/hotel_booking" class="request_book">
                         Request to book
                 </Link>
             </div>
