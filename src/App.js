@@ -9,15 +9,18 @@ import { BrowserRouter, Routes, Route ,Navigate} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/booking" element={<Booking/>}/>
-        <Route path="/confirmationpage" element={<ConfirmationPage/>}/>
-        <Route path="/login" element={<LoginPage/>}/>
-        <Route path="/profilepage" element={<ProfilePage/>}/>
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<HomePage/>}/>
+    //     <Route path="/booking" element={<Booking/>}/>
+    //     <Route path="/confirmationpage" element={<ConfirmationPage/>}/>
+    //     <Route path="/login" element={<LoginPage/>}/>
+    //     <Route path="/profilepage" element={<ProfilePage/>}/>
+    //   </Routes>
+    // </BrowserRouter>
+    <div>
+      test text
+    </div>
   );
 }
 
